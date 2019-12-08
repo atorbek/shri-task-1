@@ -1,0 +1,19 @@
+.event {
+    min-height: 400px;
+
+    &__preview {
+        margin-bottom: var(--space-xxl);
+    }
+
+    &__speaker {
+        margin-right: var(--space-xs);
+    }
+
+    &__title {
+        margin-bottom: var(--space-s);
+    }
+
+    &__footer {
+        position: relative;
+    }
+}

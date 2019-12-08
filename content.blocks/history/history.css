@@ -1,0 +1,17 @@
+.history {
+    &__show {
+        cursor: pointer;
+        margin-top: 0 !important;
+        justify-content: space-between;
+    }
+
+    &__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__actions {
+        margin-bottom: 0;
+    }
+}

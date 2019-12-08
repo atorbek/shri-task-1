@@ -1,0 +1,12 @@
+.product {
+    position: relative;
+    min-height: 300px;
+
+    &__image {
+        height: 160px;
+    }
+
+    &__title {
+        margin-bottom: var(--space-xxxl);
+    }
+}

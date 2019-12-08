@@ -1,0 +1,10 @@
+.footer {
+    padding: var(--space-xxxl) var(--gap);
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        max-width: var(--screen-m);
+        margin: 0 auto;
+    }
+}

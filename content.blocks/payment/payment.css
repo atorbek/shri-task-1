@@ -1,0 +1,13 @@
+.payment {
+
+    &__header {
+    }
+
+    &__content .form__item:last-child {
+        margin-bottom: 0;
+    }
+
+    &__footer {
+
+    }
+}
