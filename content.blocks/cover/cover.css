@@ -1,0 +1,13 @@
+.cover {
+    position: relative;
+    min-height: 472px;
+
+    &__preview {
+        height: 180px;
+        margin-bottom: var(--space-l);
+    }
+
+    &__info {
+
+    }
+}

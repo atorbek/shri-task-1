@@ -1,0 +1,22 @@
+.event {
+    min-height: 400px;
+
+    &__preview {
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--space-xxl);
+    }
+
+    &__speaker {
+        margin-right: var(--space-xs);
+    }
+
+    &__title {
+        margin-bottom: var(--space-s);
+    }
+
+    &__footer {
+        position: relative;
+        padding-top: var(--space-xxs);
+    }
+}

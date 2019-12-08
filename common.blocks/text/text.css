@@ -1,0 +1,109 @@
+.text {
+    &_align_center {
+        text-align: center;
+    }
+
+    &_size {
+        &_s {
+            --word-width-s: 20px;
+            --word-width-m: 48px;
+            --word-width-l: 100px;
+            --word-height: var(--size-text-s);
+
+            line-height: var(--size-line-height-s);
+        }
+
+        &_m {
+            --word-width-s: 24px;
+            --word-width-m: 56px;
+            --word-width-l: 114px;
+            --word-height: var(--size-text-m);
+
+            line-height: var(--size-line-height-m);
+        }
+
+        &_l {
+            --word-width-s: 28px;
+            --word-width-m: 68px;
+            --word-width-l: 138px;
+            --word-height: var(--size-text-l);
+
+            line-height: var(--size-line-height-l);
+        }
+
+        &_xl {
+            --word-width-s: 32px;
+            --word-width-m: 74px;
+            --word-width-l: 154px;
+            --word-height: var(--size-text-xl);
+
+            line-height: var(--size-line-height-xl);
+        }
+
+        &_xxl {
+            --word-width-s: 36px;
+            --word-width-m: 88px;
+            --word-width-l: 184px;
+            --word-height: 16px;
+
+            font-size: var(--size-text-xxl);
+            line-height: var(--size-line-height-xxl);
+        }
+    }
+
+    &_type {
+        &_h1 {
+            margin: 18px 0 24px;
+        }
+
+        &_h2 {
+            margin: 45px 0 21px;
+        }
+
+        &_h3 {
+            margin: 42px 0 0;
+        }
+
+        &_p {
+            margin: 15px 0 21px;
+        }
+    }
+
+    &_view {
+        &_primary {
+            --text-color-view: var(--text-color-primary);
+        }
+
+        &_secondary {
+            --text-color-view: var(--text-color-secondary);
+        }
+
+        &_ghost {
+            --text-color-view: var(--text-color-ghost);
+        }
+
+        &_link {
+            --text-color-view: var(--text-color-link);
+        }
+    }
+
+    &__word {
+        display: inline-block;
+        height: var(--word-height);
+        background-color: var(--text-color-view);
+
+        &_width {
+            &_s {
+                width: var(--word-width-s);
+            }
+
+            &_m {
+                width: var(--word-width-m);
+            }
+
+            &_l {
+                width: var(--word-width-l);
+            }
+        }
+    }
+}

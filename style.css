@@ -1,0 +1,31 @@
+@import "common.blocks/theme/theme.css";
+
+@import 'common.blocks/page/page.css';
+@import "common.blocks/layout/layout.css";
+@import "common.blocks/grid/grid.css";
+
+@import "common.blocks/card/card.css";
+@import "common.blocks/form/form.css";
+@import "common.blocks/informer/informer.css";
+@import "common.blocks/icon-plus/icon-plus.css";
+@import "common.blocks/section/section.css";
+@import "common.blocks/list/list.css";
+
+@import 'common.blocks/text/text.css';
+@import 'common.blocks/avatar/avatar.css';
+@import 'common.blocks/brand-logo/brand-logo.css';
+@import 'common.blocks/placeholder/placeholder.css';
+@import 'common.blocks/button/button.css';
+@import 'common.blocks/input/input.css';
+@import 'common.blocks/image/image.css';
+
+@import 'content.blocks/cover/cover.css';
+@import 'content.blocks/e-accordion/e-accordion.css';
+@import 'content.blocks/event/event.css';
+@import 'content.blocks/footer/footer.css';
+@import 'content.blocks/header/header.css';
+@import 'content.blocks/history/history.css';
+@import 'content.blocks/onoffswitch/onoffswitch.css';
+@import 'content.blocks/payment/payment.css';
+@import 'content.blocks/product/product.css';
+@import 'content.blocks/warning/warning.css';

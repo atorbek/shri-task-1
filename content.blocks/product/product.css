@@ -1,0 +1,14 @@
+.product {
+    position: relative;
+    min-height: 300px;
+
+    &__image {
+        height: 160px;
+        .image {
+            border-color: var(--color-bg-default);
+        }
+    }
+    &__title {
+        margin-bottom: var(--space-xxxl);
+    }
+}

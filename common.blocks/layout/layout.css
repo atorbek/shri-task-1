@@ -1,0 +1,42 @@
+.layout {
+    &__container {
+        width: 100%;
+        background-color: var(--color-bg-default);
+
+        &_align_center {
+            margin: 0 auto;
+        }
+
+        &_size {
+            &_s {
+                max-width: var(--screen-s);
+            }
+
+            &_m {
+                max-width: var(--screen-m);
+            }
+        }
+
+        &_space-v {
+            &_xxxxl {
+                padding-top: var(--space-xxxxl);
+                padding-bottom: var(--space-xxxxl);
+            }
+
+            &_xxxxxl {
+                padding-top: var(--space-xxxxxl);
+                padding-bottom: var(--space-xxxxxl);
+            }
+        }
+
+        &_indent-b {
+            &_xxl {
+               margin-bottom: var(--space-xxl);
+            }
+
+            &_xxxxl {
+                margin-bottom: var(--space-xxxxl);
+            }
+        }
+    }
+}

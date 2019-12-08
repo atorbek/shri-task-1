@@ -1,0 +1,10 @@
+.avatar {
+    background-color: var(--text-color-primary);
+    display: inline-block;
+    position: relative;
+
+    &_size_m {
+        width: 60px;
+        height: 60px;
+    }
+}

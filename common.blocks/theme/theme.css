@@ -1,0 +1,150 @@
+$color-bg-default: #ffffff;
+$color-bg-accent: #ffcc00;
+$color-bg-border: #000000;
+
+$text-color-primary: #000000;
+$text-color-secondary: rgba(0, 0, 0, 0.6);
+$text-color-ghost: rgba(0, 0, 0, 0.3);
+$text-color-link: #0077ff;
+
+$size-text-s: 8px;
+$size-text-m: 10px;
+$size-text-l: 11px;
+$size-text-xl: 13px;
+$size-text-xxl: 16px;
+
+$size-line-height-s: 21px;
+$size-line-height-m: 25px;
+$size-line-height-l: 28px;
+$size-line-height-xl: 34px;
+$size-line-height-xxl: 38px;
+
+$space-xxxs: 3px;
+$space-xxs: 6px;
+$space-xs: 9px;
+$space-s: 15px;
+$space-m: 18px;
+$space-l: 24px;
+$space-xl: 27px;
+$space-xxl: 36px;
+$space-xxxl: 45px;
+$space-xxxxl: 51px;
+$space-xxxxxl: 72px;
+
+$screen-m: 1280px;
+$screen-s: 920px;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.theme {
+    --screen-m: $screen-m;
+    --screen-s: $screen-s;
+
+    &_color {
+        &_project-default {
+            --color-bg-default: $color-bg-default;
+            --color-bg-accent: $color-bg-accent;
+            --color-bg-border: $color-bg-border;
+
+            --text-color-primary: $text-color-primary;
+            --text-color-secondary: $text-color-secondary;
+            --text-color-ghost: $text-color-ghost;
+            --text-color-link: $text-color-link;
+
+            --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='64' viewBox='0 0 80 64'%3E%3Cpath fill='%23000' d='M32 16h16V8h8v8h8v8h8v8h8v16h-8v-8h-8v8h-8v8h-8v-8H32v8h-8v-8h-8v-8H8v8H0V32h8v-8h8v-8h8V8h8v8zm-8 16h8v-8h-8v8zM16 0h8v8h-8V0zm0 56h8v8h-8v-8zm40-24v-8h-8v8h8zm8-32v8h-8V0h8zm0 56v8h-8v-8h8z'/%3E%3C/svg%3E");
+
+        }
+        &_project-brand {
+            --color-bg-default: #0077ff;
+            --color-bg-accent: #ffffff;
+            --color-bg-border: #ffffff;
+
+            --text-color-primary: #ffffff;
+            --text-color-secondary: rgba(255, 255, 255, 0.6);
+            --text-color-ghost: rgba(255, 255, 255, 0.3);
+            --text-color-link: #ffffff;
+
+            --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='64' viewBox='0 0 80 64'%3E%3Cpath fill='%23FFF' d='M32 16h16V8h8v8h8v8h8v8h8v16h-8v-8h-8v8h-8v8h-8v-8H32v8h-8v-8h-8v-8H8v8H0V32h8v-8h8v-8h8V8h8v8zm-8 16h8v-8h-8v8zM16 0h8v8h-8V0zm0 56h8v8h-8v-8zm40-24v-8h-8v8h8zm8-32v8h-8V0h8zm0 56v8h-8v-8h8z'/%3E%3C/svg%3E");
+
+        }
+        &_project-inverse {
+            --color-bg-default: #000000;
+            --color-bg-accent: #ffffff;
+            --color-bg-border: #ffffff;
+
+            --text-color-primary: #ffffff;
+            --text-color-secondary: rgba(255, 255, 255, 0.6);
+            --text-color-ghost: rgba(255, 255, 255, 0.3);
+            --text-color-link: #0077ff;
+
+            --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='64' viewBox='0 0 80 64'%3E%3Cpath fill='%23FFF' d='M32 16h16V8h8v8h8v8h8v8h8v16h-8v-8h-8v8h-8v8h-8v-8H32v8h-8v-8h-8v-8H8v8H0V32h8v-8h8v-8h8V8h8v8zm-8 16h8v-8h-8v8zM16 0h8v8h-8V0zm0 56h8v8h-8v-8zm40-24v-8h-8v8h8zm8-32v8h-8V0h8zm0 56v8h-8v-8h8z'/%3E%3C/svg%3E");
+        }
+        &_project-warning {
+            --color-bg-default: #ff3333;
+            --color-bg-accent: #ffffff;
+            --color-bg-border: #ff3333;
+
+            --text-color-primary: #ffffff;
+            --text-color-secondary: rgba(255, 255, 255, 0.6);
+            --text-color-ghost: rgba(255, 255, 255, 0.3);
+            --text-color-link: #fff;
+        }
+    }
+
+    &_size {
+        &_default {
+            --size-text-s: $size-text-s;
+            --size-text-m: $size-text-m;
+            --size-text-l: $size-text-l;
+            --size-text-xl: $size-text-xl;
+            --size-text-xxl: $size-text-xxl;
+
+            --size-line-height-s: $size-line-height-s;
+            --size-line-height-m: $size-line-height-m;
+            --size-line-height-l: $size-line-height-l;
+            --size-line-height-xl: $size-line-height-xl;
+            --size-line-height-xxl: $size-line-height-xxl;
+        }
+    }
+
+    &_space {
+        &_default {
+            --space-xxxs: $space-xxxs;
+            --space-xxs: $space-xxs;
+            --space-xs: $space-xs;
+            --space-s: $space-s;
+            --space-m: $space-m;
+            --space-l: $space-l;
+            --space-xl: $space-xl;
+            --space-xxl: $space-xxl;
+            --space-xxxl: $space-xxxl;
+            --space-xxxxl: $space-xxxxl;
+            --space-xxxxxl: $space-xxxxxl;
+        }
+    }
+
+    &_gap {
+        &_small {
+            @media screen and (min-width: $screen-s) {
+                --gap: $space-s;
+            }
+
+            @media screen and (min-width: $screen-m) {
+                --gap: $space-xl;
+            }
+
+            --gap: $space-xl;
+            --col-gap-full: var(--gap);
+            --col-gap-half: calc(var(--gap) * 0.5);
+            --col-gap-third: calc(var(--gap) * 0.33);
+            --col-gap-two-thirds: calc(var(--gap) * 0.66);
+
+            --row-gap-full: var(--gap);
+            --row-gap-half: calc(var(--gap) * 0.5);
+        }
+    }
+}

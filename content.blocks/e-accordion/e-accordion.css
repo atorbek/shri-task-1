@@ -1,0 +1,8 @@
+.e-accordion {
+    &__more {
+        display: none;
+        &_show {
+            display: block;
+        }
+    }
+}
