@@ -30,11 +30,11 @@
 
     &_row-gap {
         &_half {
-            grid-row-gap: var(--row-gap-full);
+            grid-row-gap: var(--row-gap-half);
         }
 
         &_full {
-            grid-row-gap: var(--row-gap-half);
+            grid-row-gap: var(--row-gap-full);
         }
     }
 

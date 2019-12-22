@@ -1,5 +1,5 @@
 .footer {
-    padding: var(--space-xxxl) var(--col-gap-full);
+    padding: var(--space-xxxl) var(--gap);
 
     &__content {
         display: flex;

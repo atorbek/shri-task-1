@@ -1,5 +1,6 @@
 .event {
     min-height: 400px;
+    position: relative;
 
     &__preview {
         display: flex;
@@ -13,10 +14,5 @@
 
     &__title {
         margin-bottom: var(--space-s);
-    }
-
-    &__footer {
-        position: relative;
-        padding-top: var(--space-xxs);
     }
 }

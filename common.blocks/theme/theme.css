@@ -129,13 +129,10 @@ $screen-s: 920px;
 
     &_gap {
         &_small {
-            @media screen and (min-width: $screen-s) {
+            @media screen and (max-width: $screen-s) {
                 --gap: $space-s;
             }
-
-            @media screen and (min-width: $screen-m) {
-                --gap: $space-xl;
-            }
+            
 
             --gap: $space-xl;
             --col-gap-full: var(--gap);
