@@ -10,32 +10,29 @@
   },
   "author": "atorbek",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.7",
     "@babel/runtime": "^7.7.7",
+    "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^0.1.19",
-
-    "autoprefixer": "^9.7.3",
-    "postcss-calc": "^7.0.1",
-    "postcss-nested": "^4.2.1",
-    "postcss-simple-vars": "^5.0.2",
-
-    "css-loader": "^1.0.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "mini-css-extract-plugin": "^0.8.2",
-    "uglifyjs-webpack-plugin": "^2.2.0"
-  },
-  "devDependencies": {
+    "css-loader": "^3.4.0",
     "eslint": "^6.7.2",
-    "postcss-each": "^0.10.0",
-    "postcss-for": "^2.1.1",
+    "mini-css-extract-plugin": "^0.8.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-calc": "^7.0.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
     "postcss-reporter": "^6.0.1",
+    "postcss-simple-vars": "^5.0.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1",
-    "webpack": "^4.41.4"
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }

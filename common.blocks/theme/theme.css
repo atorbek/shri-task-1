@@ -132,7 +132,6 @@ $screen-s: 920px;
             @media screen and (max-width: $screen-s) {
                 --gap: $space-s;
             }
-            
 
             --gap: $space-xl;
             --col-gap-full: var(--gap);
